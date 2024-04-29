@@ -1,0 +1,87 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: lightgreen;
+    padding: 1rem;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+.header:hover {
+    background-color: rgba(255, 255, 255, 1);
+}
+.header__logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.header__nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header__menu {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    width: 80%;
+}
+
+.header__item {
+    margin-left: 1rem;
+}
+.header__link:hover {
+    color: rgb(173, 118, 0)
+}
+.header__link {
+    text-decoration: none;
+    color: black;
+}
+
+.header__avatar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-left: auto;
+    cursor: pointer;
+}
+
+.header__avatar-image {
+    width: 30px;
+    height: 30px;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8f7; /* Light green background */
+    color: #333; /* Dark text color */
+    padding: 20px;
+}
+
+h1 {
+    margin-top: 70px;
+    text-align: center;
+    color: #228b22; /* Green heading */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ccc; /* Dotted line between cells */
+}
+
+th {
+    background-color: #32cd32; /* Dark green table header */
+    color: #fff; /* White text */
+}
+
+tr:nth-child(even) {
+    background-color: #f5f5f5; /* Light green for even rows */
+}

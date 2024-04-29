@@ -1,0 +1,126 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: lightgreen;
+    padding: 1rem;
+}
+.header:hover {
+    background-color: rgba(255, 255, 255, 1);
+}
+.header__logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.header__nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header__menu {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    width: 50%;
+}
+
+.header__item {
+    margin-left: 1rem;
+}
+.header__link:hover {
+    color: rgb(173, 118, 0)
+}
+.header__link {
+    text-decoration: none;
+    color: black;
+}
+
+.header__avatar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-left: auto;
+    cursor: pointer;
+}
+
+.header__avatar-image {
+    width: 30px;
+    height: 30px;
+}
+
+.footer {
+    background-color: #333;
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+    margin-top: auto;
+}
+  
+.footer__text {
+    margin-bottom: 20px;
+}
+  
+.footer__social {
+    display: flex;
+    justify-content: center;
+}
+  
+.footer__social-link {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+  
+  .footer__social-link:hover {
+    color: #ccc;
+  }
+
+.about {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #12dfa1; /* цвет текста */
+}
+
+.about span {
+    font-weight: bold;
+    color: #12dfa1; /* жирный текст для заголовка */
+}
+
+.all_contacts {
+    margin-top: 20px; /* отступ сверху для контактов */
+}
+
+.contacts {
+    font-family: Arial, sans-serif;
+    font-size: 14px; 
+    color: #12dfa1;/* размер шрифта для контактов */
+}
+
+.contacts p {
+    margin-top: 10px; /* отступ сверху для абзаца контактов */
+}
+
+.contacts a {
+    color: #007bff; /* цвет ссылки */
+    text-decoration: none; /* убираем подчеркивание ссылки */
+}
+
+.contacts a:hover {
+    text-decoration: underline; /* подчеркиваем ссылку при наведении */
+}

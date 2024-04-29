@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Карточка товара</title>
+  <link rel="stylesheet" href="../style/styleForCard.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header__logo">
+            Logo
+        </div>
+        <nav class="header__nav">
+            <ul class="header__menu">
+                <li class="header__item"><a href="main.html" class="header__link">Home</a></li>
+                <li class="header__item"><a href="catalog.html" class="header__link">Catalog</a></li>
+                <li class="header__item"><a href="#" class="header__link">Brands</a></li>
+                <li class="header__item"><a href="Pricelist.html" class="header__link">Sales</a></li>
+                <li class="header__item"><a href="AboutUs.html" class="header__link">Contacts</a></li>
+            </ul>
+        </nav>
+        <div class="header__avatar">
+            <img src="../images/person.png" class="header__avatar-image" onclick="openModal()">
+        </div>
+    </header>
+  <div class="container">
+    <div class="image-wrapper">
+        <div class="slider-controls">
+          <button class="prev-slide">&lt;</button>
+          <button class="next-slide">&gt;</button>
+        </div>
+        <div class="slider">
+          <img src="../images/3/2.jpeg" alt="Изображение товара" class="product-image active">
+          <img src="../images/3/parfum_3.jpg" alt="Изображение товара" class="product-image">
+          <img src="../images/3/3.jpeg" alt="Изображение товара" class="product-image">
+        </div>
+        <div class="thumbnails">
+            <img src="../images/3/2.jpeg" alt="Изображение товара" class="thumbnail">
+            <img src="../images/3/parfum_3.jpg" alt="Изображение товара" class="thumbnail">
+            <img src="../images/3/3.jpeg" alt="Изображение товара" class="thumbnail">
+        </div>
+    </div>
+    <div class="content-wrapper">
+      <div class="card">
+        <h2 class="title">Tom Ford Vanilla SEX</h2>
+        <p class="description">
+            Аромат Tom Ford Tobacco Vanille вызывает ассоциации с английским клубом джентльменов и открывается с новой стороны благодаря неожиданным ингредиентам и ноткам специй.
+             Tom Ford Tobacco Vanille — это богатый и теплый аромат с неожиданным и современным характером.
+        </p>
+        <ul class="features-list">
+            <li>группа ароматов: амбровые, пряные.</li>
+            <li>верхние ноты: табачный лист и специи.</li>
+            <li>средние ноты: бобы тонка, цветок табака, ваниль и какао.</li>
+            <li>базовые ноты: сухофрукты и древесные ноты.</li>
+        </ul>
+        <div class="rating">
+          <span class="star" data-value="1">&#9733;</span>
+          <span class="star" data-value="2">&#9733;</span>
+          <span class="star" data-value="3">&#9733;</span>
+          <span class="star" data-value="4">&#9733;</span>
+          <span class="star" data-value="5">&#9733;</span>
+        </div>
+        <div class="review-form">
+          <label for="comment">Комментарий:</label>
+          <textarea id="comment"></textarea>
+        </div>
+        <button class="buy-button">Купить</button>
+        <button class="add-to-cart-button">Добавить в корзину</button>
+      </div>
+    </div>
+  </div>
+  <script src="../js/scriptForCard.js"></script>
+</body>
+</html>

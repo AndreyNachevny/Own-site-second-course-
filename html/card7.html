@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Карточка товара</title>
+  <link rel="stylesheet" href="../style/styleForCard.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header__logo">
+            Logo
+        </div>
+        <nav class="header__nav">
+            <ul class="header__menu">
+                <li class="header__item"><a href="main.html" class="header__link">Home</a></li>
+                <li class="header__item"><a href="catalog.html" class="header__link">Catalog</a></li>
+                <li class="header__item"><a href="#" class="header__link">Brands</a></li>
+                <li class="header__item"><a href="Pricelist.html" class="header__link">Sales</a></li>
+                <li class="header__item"><a href="AboutUs.html" class="header__link">Contacts</a></li>
+            </ul>
+        </nav>
+        <div class="header__avatar">
+            <img src="../images/person.png" class="header__avatar-image" onclick="openModal()">
+        </div>
+    </header>
+  <div class="container">
+    <div class="image-wrapper">
+        <div class="slider-controls">
+          <button class="prev-slide">&lt;</button>
+          <button class="next-slide">&gt;</button>
+        </div>
+        <div class="slider">
+          <img src="../images/catalog/7.jpg" alt="Изображение товара" class="product-image active">
+          <img src="../images/7/2.jpg" alt="Изображение товара" class="product-image">
+          <img src="../images/7/3.jpg" alt="Изображение товара" class="product-image">
+        </div>
+        <div class="thumbnails">
+            <img src="../images/catalog/7.jpg" alt="Изображение товара" class="thumbnail">
+            <img src="../images/7/2.jpg" alt="Изображение товара" class="thumbnail">
+            <img src="../images/7/3.jpg" alt="Изображение товара" class="thumbnail">
+        </div>
+    </div>
+    <div class="content-wrapper">
+      <div class="card">
+        <h2 class="title">Alexandre J. The Collector Silver Ombre EDP</h2>
+        <p class="description">
+            Alexandre J. The Collector Silver Ombre EDP – это аромат, который приглашает вас в удивительный мир роскоши и изысканности. Он создан для тех, кто ценит элегантность и утонченность в каждой ноте парфюма, в каждом вдохе аромата.
+            Сияющие и заманчивые ноты, обрамленные богатством древесных аккордов и пряностей, придают этому аромату неповторимый характер и шарм. Alexandre J. The Collector Silver Ombre EDP – это аромат для истинных ценителей искусства парфюмерии, которые стремятся к высочайшему качеству и непревзойденному стилю.
+        </p>
+        <ul class="features-list">
+            <li>группа ароматов: древесные, пряные, цветочные.</li>
+            <li>верхние ноты: бергамот, лимон, мандарин.</li>
+            <li>средние ноты: жасмин, роза, ирис.</li>
+            <li>базовые ноты: ваниль, бензоин, мускус.</li>
+        </ul>
+        <div class="rating">
+          <span class="star" data-value="1">&#9733;</span>
+          <span class="star" data-value="2">&#9733;</span>
+          <span class="star" data-value="3">&#9733;</span>
+          <span class="star" data-value="4">&#9733;</span>
+          <span class="star" data-value="5">&#9733;</span>
+        </div>
+        <div class="review-form">
+          <label for="comment">Комментарий:</label>
+          <textarea id="comment"></textarea>
+        </div>
+        <button class="buy-button">Купить</button>
+        <button class="add-to-cart-button">Добавить в корзину</button>
+      </div>
+    </div>
+  </div>
+  <script src="../js/scriptForCard.js"></script>
+</body>
+</html>

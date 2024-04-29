@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="shop.css"?>
+<shop>
+    <item>
+        <id>1</id>
+        <name>ESCENTRIC MOLECULES MOLECULE 05</name>
+        <groupOfRagrances>древесные, фужерные.</groupOfRagrances>
+        <topNotes> молекула cashmeran.</topNotes>
+        <middleNotes>молекула cashmeran.</middleNotes>
+        <baseNotes>молекула cashmeran.</baseNotes>
+    </item>
+    <item>
+        <id>2</id>
+        <name>Creed Aventus</name>
+        <groupOfRagrances>фруктовые, древесные.</groupOfRagrances>
+        <topNotes>ананас, яблоко, бергамот, черная смородина.</topNotes>
+        <middleNotes>янтарь, береза, жасмин.</middleNotes>
+        <baseNotes>мускус, ваниль, дубовый мох, пачули.</baseNotes>
+    </item>
+    <item>
+        <id>3</id>
+        <name>Tom Ford Tobacco Vanille</name>
+        <groupOfRagrances>табачные, восточные.</groupOfRagrances>
+        <topNotes>табачный лист, специи.</topNotes>
+        <middleNotes>ваниль, какао, тонка, сухофрукты.</middleNotes>
+        <baseNotes>древесные ноты, сухие плоды, сандаловое дерево.</baseNotes>
+    </item>
+    <item>
+        <id>4</id>
+        <name>Dior Sauvage</name>
+        <groupOfRagrances>цитрусовые, ароматы зеленых.</groupOfRagrances>
+        <topNotes>бергамот, папоротник.</topNotes>
+        <middleNotes>лабданум, розовый пипер, лаванда.</middleNotes>
+        <baseNotes>амброксан, ветивер, пачули.</baseNotes>
+    </item>
+    <item>
+        <id>5</id>
+        <name>Byredo Gypsy Water</name>
+        <groupOfRagrances>цитрусовые, ароматы древесины.</groupOfRagrances>
+        <topNotes>бергамот, лимон, ладан.</topNotes>
+        <middleNotes>ирис, жасмин, кардамон.</middleNotes>
+        <baseNotes>ваниль, сандаловое дерево, амбра.</baseNotes>
+    </item>
+    <item>
+        <id>6</id>
+        <name>Amouage Interlude Man</name>
+        <groupOfRagrances>восточные, древесные.</groupOfRagrances>
+        <topNotes>бергамот, орегано, лаванда, африканский орех.</topNotes>
+        <middleNotes>дудка, олибанум, лабданум, французский лабданум.</middleNotes>
+        <baseNotes>пачули, кожа, агар, мирра.</baseNotes>
+    </item>
+    <item>
+        <id>7</id>
+        <name>Nasomatto Black Afgano</name>
+        <groupOfRagrances>древесные, теплые специи.</groupOfRagrances>
+        <topNotes>калифорнийский белый смола, марихуана.</topNotes>
+        <middleNotes>копаива, тонка.</middleNotes>
+        <baseNotes>дерево агар, кедр, сандал, пачули.</baseNotes>
+    </item>
+    <item>
+        <id>8</id>
+        <name>Roja Parfums Enigma Parfum Cologne</name>
+        <groupOfRagrances>цитрусовые, восточные.</groupOfRagrances>
+        <topNotes>бергамот, лимон, лайм, цитрусовые ноты.</topNotes>
+        <middleNotes>цветок апельсина, лаванда, жасмин, роза.</middleNotes>
+        <baseNotes>ваниль, амбра, гваяк, сандал, перец, герань.</baseNotes>
+    </item>
+    <item>
+        <id>9</id>
+        <name>Xerjoff Naxos</name>
+        <groupOfRagrances>восточные, табачные.</groupOfRagrances>
+        <topNotes>цитрусовые, герань, имбирь.</topNotes>
+        <middleNotes>лабданум, мед, карамель, корица.</middleNotes>
+        <baseNotes>табачные листья, ваниль, кедр, ветивер.</baseNotes>
+    </item>
+    <item>
+        <id>10</id>
+        <name>Clive Christian No.1 for Men</name>
+        <groupOfRagrances>цветочные, древесные.</groupOfRagrances>
+        <topNotes>бергамот, лайм, мандарин, кардамон.</topNotes>
+        <middleNotes>ландыш, роза, жасмин, иланг-иланг.</middleNotes>
+        <baseNotes>сандал, ветивер, кожа, амбра, мускус.</baseNotes>
+    </item>
+    <item>
+        <id>11</id>
+        <name>Frederic Malle Portrait of a Lady</name>
+        <groupOfRagrances>цветочные, фруктовые.</groupOfRagrances>
+        <topNotes>роза, малина, черная смородина, канделабры.</topNotes>
+        <middleNotes>роза, фрезия, фиалка.</middleNotes>
+        <baseNotes>мускус, пачули, кедр, сандал, амбра, ваниль.</baseNotes>
+    </item>
+    <item>
+        <id>12</id>
+        <name>Alexandre J. The Collector Silver Ombre EDP</name>
+        <groupOfRagrances>древесные, пряные.</groupOfRagrances>
+        <topNotes>бергамот, лимон, кардамон.</topNotes>
+        <middleNotes>перец, кумарин, слива.</middleNotes>
+        <baseNotes>кашмир, кедр, пачули.</baseNotes>
+    </item>
+    <item>
+        <id>13</id>
+        <name>Bond No. 9 New York Musk</name>
+        <groupOfRagrances>цветочные, древесные.</groupOfRagrances>
+        <topNotes>бергамот, мускатный орех, кардамон.</topNotes>
+        <middleNotes>белый жасмин, лилия, роза.</middleNotes>
+        <baseNotes>кедр, олибанум, пачули, мускус.</baseNotes>
+    </item>
+    <item>
+        <id>14</id>
+        <name>Christian Dior Fahrenheit</name>
+        <groupOfRagrances>фужерные, древесные.</groupOfRagrances>
+        <topNotes>ландыш, горечавка, гиацинт, лаванда, мандарин, шалфей, цитрусовые ноты.</topNotes>
+        <middleNotes>гвоздика, сандал, жасмин, ландыш, лилия, магнолия, нероли, кедр, ночной цветок.</middleNotes>
+        <baseNotes>амбра, ветивер, кожа, лиственные ноты, мускус, стиракс, ваниль, кедр, пачули.</baseNotes>
+    </item>
+    <item>
+        <id>15</id>
+        <name>Creed Green Irish Tweed</name>
+        <groupOfRagrances>цветочные, фужерные.</groupOfRagrances>
+        <topNotes>дыня, лимон, бергамот, лаванда.</topNotes>
+        <middleNotes>пачули, жасмин, бразильский розовый дерево.</middleNotes>
+        <baseNotes>мускус, амбра, мох.</baseNotes>
+    </item>
+    <item>
+        <id>16</id>
+        <name>Roja Parfums Danger Parfum Pour Homme</name>
+        <groupOfRagrances>фужерные, древесные.</groupOfRagrances>
+        <topNotes>бергамот, лимон.</topNotes>
+        <middleNotes>петитгрейн, розмарин, лаванда, розовый герань.</middleNotes>
+        <baseNotes>ваниль, кедр, гваяк, пачули, мускус, амбра, бензоин.</baseNotes>
+    </item>
+    <item>
+        <id>17</id>
+        <name>Frederic Malle Musc Ravageur</name>
+        <groupOfRagrances>цветочные, восточные.</groupOfRagrances>
+        <topNotes>лайм, бергамот, лаванда.</topNotes>
+        <middleNotes>корица, кардамон, красное перчика, роза, кожа.</middleNotes>
+        <baseNotes>ваниль, мускус, амбра, сандаловое дерево.</baseNotes>
+    </item>
+    <item>
+        <id>18</id>
+        <name>Nasomatto Pardon</name>
+        <groupOfRagrances>цветочные, древесные.</groupOfRagrances>
+        <topNotes>горький апельсин, мирра.</topNotes>
+        <middleNotes>черная орхидея, масло дерева.</middleNotes>
+        <baseNotes>сандаловое дерево, кедр, ветивер.</baseNotes>
+    </item>
+    <item>
+        <id>19</id>
+        <name>Amouage Jubilation XXV Man</name>
+        <groupOfRagrances>восточные, древесные.</groupOfRagrances>
+        <topNotes>лайм, черная смородина, орегано, кумарин, лаванда, мята, апельсин, гвоздика.</topNotes>
+        <middleNotes>корица, ладан, роза, тимьян, ветивер.</middleNotes>
+        <baseNotes>бальзамические ноты, амбра, мускус, пачули, гуаяк, ваниль, дерево, мирра.</baseNotes>
+    </item>
+    <item>
+        <id>20</id>
+        <name>Tom Ford Oud Wood</name>
+        <groupOfRagrances>древесные, восточные.</groupOfRagrances>
+        <topNotes>розовый перец, кардамон, шафран, бергамот.</topNotes>
+        <middleNotes>бензоин, ладан, стиракс, пачули, венге.</middleNotes>
+        <baseNotes>мускус, ваниль, кедр, агар, сандал.</baseNotes>
+    </item>
+</shop>
